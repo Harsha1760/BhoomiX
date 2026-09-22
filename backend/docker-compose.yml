@@ -2,7 +2,7 @@ services:
   postgis:
     image: postgis/postgis:16-3.4
     environment:
-      POSTGRES_DB: bhoomix
+      POSTGRES_DB: bhoomix1
       POSTGRES_USER: bhoomix
       POSTGRES_PASSWORD: bhoomix-dev-password
     ports:

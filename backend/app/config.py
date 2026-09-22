@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     app_name: str = "BhoomiX Land Intelligence API"
-    database_url: str = "postgresql://bhoomix:bhoomix-dev-password@localhost:5432/bhoomix"
+    database_url: str = "postgresql://bhoomix:bhoomix-dev-password@localhost:5432/bhoomix1"
     storage_dir: Path = Path("./data/uploads")
     max_upload_size_mb: int = 15
     validation_confidence_threshold: float = 0.85
